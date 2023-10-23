@@ -24,16 +24,16 @@ public class Humain {
 	public void direBonjour() {
 		parler("Bonjour ! Je m'appelle "
 				+ nom + " et j'aime boire du "
-				+ boisson);
+				+ boisson+".");
 	}
 	
 	public void boire() {
-		parler("Mmmmm, un bon verre de "
+		parler(" Mmmmm, un bon verre de "
 				+ boisson +" ! GLOUPS !");
 	}
 	
 	protected void parler(String texte) {
-		System.out.println(texte);
+		System.out.println("("+nom+") - "+texte);
 		
 	}
 
