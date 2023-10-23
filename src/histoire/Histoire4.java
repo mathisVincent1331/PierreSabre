@@ -14,13 +14,19 @@ public class Histoire4 {
 		
 		Commercant marco = new Commercant("Marco", 20);
 //		marco.direBonjour();
-		marco.seFaireExtorquer();
-		marco.recevoir(15);
+//		marco.seFaireExtorquer();
+//		marco.recevoir(15);
 //		marco.boire();
 		
 		Yakuza mikey = new Yakuza("Yaku le Noir", "whiskey", 30, "Warsong");
-		mikey.direBonjour();
-		mikey.extorquer(marco);
+//		mikey.direBonjour();
+//		mikey.extorquer(marco);
+		
+		Ronin roro = new Ronin("roro", "shochu", 60);
+//		roro.direBonjour();
+//		roro.donner(marco);
+		
+		roro.provoquer(mikey);
 	}
 
 }
