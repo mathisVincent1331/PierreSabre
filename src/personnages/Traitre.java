@@ -20,7 +20,6 @@ public class Traitre extends Samourai{
 	public void ranconner(Commercant commercant) {
 		if (traitrise < 3) {
 			int comercantArgent = commercant.getArgent();
-			System.out.println(comercantArgent);
 			int argentRanconner = (comercantArgent*2/10);
 			commercant.perdreArgent(argentRanconner);
 			gagnerArgent(argentRanconner);
@@ -42,7 +41,7 @@ public class Traitre extends Samourai{
 		} else {
 			Random random = new Random();
 			Humain perso = memoire[random.nextInt(nbConnaissance)];
-			int don = argent*(1/20);
+			int don = (argent*1/20);
 			String nomAmi = perso.getNom();
 			
 			parler("Il faut absolument remonter ma côte de confiance."
