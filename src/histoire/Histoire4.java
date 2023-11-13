@@ -19,14 +19,14 @@ public class Histoire4 {
 //		marco.boire();
 		
 		Yakuza mikey = new Yakuza("Yaku le Noir", "whiskey", 30, "Warsong");
-//		mikey.direBonjour();
+		mikey.direBonjour();
 //		mikey.extorquer(marco);
 		
 		Ronin roro = new Ronin("roro", "shochu", 60);
 //		roro.direBonjour();
 //		roro.donner(marco);
 		
-		roro.provoquer(mikey);
+//		roro.provoquer(mikey);
 	}
 
 }

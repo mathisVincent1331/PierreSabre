@@ -2,7 +2,7 @@ package personnages;
 
 
 public class Humain {
-	private final int personneMemoire = 3;
+	private final int personneMemoire = 30;
 	private String nom;
 	private String boisson;
 	protected int argent;
@@ -24,7 +24,7 @@ public class Humain {
 	}
 	
 	
-	public void direBonjour() {
+	protected void direBonjour() {
 		parler("Bonjour ! Je m'appelle "
 				+ nom + " et j'aime boire du "
 				+ boisson+".");

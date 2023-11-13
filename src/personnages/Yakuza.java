@@ -13,6 +13,13 @@ public class Yakuza extends Humain {
 		return reputation;
 	}
 
+	@Override
+	public void direBonjour() {
+		 super.direBonjour();
+		 parler("Mon clan est celui des "+ clan);
+	}
+		
+	
 	public void extorquer(Commercant victime) {
 		String nomVictime = victime.getNom();
 
